@@ -1,0 +1,65 @@
+/* css reset */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置搜索框样式 */
+.search_container {
+  position: absolute;
+  top:30px;
+  right:20px;
+}
+.search_box {
+  padding: 2px;
+  border: solid 1px #000;
+  background-color: #fff;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.search_input {
+  width: 240px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  outline: 0 none;
+  border: none;
+  float: left;
+  padding-left: 5px; 
+}
+.search_button {
+  width: 29px;
+  height: 29px;
+  border: none;
+  background: url(images/search-button.png); 
+  float: left;
+}
+.search_button:hover {
+  cursor:pointer;
+}
+
+/* 设置下拉提示框整体样式 */
+.search_suggest {
+  list-style-type: none;
+  background-color: #fff;
+  width: 280px; 
+  border: solid 1px #000;
+  border-top: none; 
+  display: none;
+  box-sizing:border-box; /* 同搜索框宽度完全一致 */
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+/* 设置下拉提示列表各项目的样式 */
+.suggest_list {
+  padding: 1px 0px 3px 5px;
+}
+.suggest_list:hover {
+  cursor:pointer;
+  background-color: #eee;
+  text-decoration:underline;
+}

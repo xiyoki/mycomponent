@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatitle" content="IE=edge">
+  <title>智能搜索框(原生JS实现)</title>
+  <link rel="stylesheet" type="text/css" href="search_box.css">
+</head>
+<body>
+  <header>
+    <div class="search_container" id="search_container">
+      <form class="search_box clearfix" id="search_box">
+        <input type="text" class="search_input" id="search_input" placeholder="请输入要搜索的内容" autocomplete="off" />
+        <input type="submit" class="search_button" value="" />
+      </form>
+      <ul class="search_suggest" id="search_suggest"></ul>
+    </div>
+  </header>
+  <script type="text/javascript" src="search_box.js"></script>
+</body>
+</html>
